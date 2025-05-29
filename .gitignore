@@ -1,0 +1,45 @@
+# ビルド生成物
+/build/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+
+# VSCode設定
+.vscode/
+
+# 実行ファイル・ライブラリ
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.o
+*.obj
+*.dll.a
+
+# ログ・一時ファイル
+*.log
+*.tmp
+*.temp
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# バックアップファイル
+*~
+*.bak
+
+# ユーザーデータ・キャッシュ
+config/config.xml
+data/calibration/
+data/cascades/
+data/models/
+
+# 外部ライブラリ（必要に応じて）
+external/opencv/
+external/dlib/
