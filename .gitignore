@@ -43,3 +43,5 @@ data/models/
 # 外部ライブラリ（必要に応じて）
 external/opencv/
 external/dlib/
+
+tmp/build/

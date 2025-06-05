@@ -35,3 +35,9 @@
 - ucrt64 のインストール
 - opencv のインストール
 - Ninja のインストール
+
+msys64 でのビルドコマンド
+```cmd
+cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
+ninja
+```
